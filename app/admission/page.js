@@ -10,7 +10,7 @@ export default function AdmissionPage() {
       <section className="mx-auto max-w-6xl px-4 py-12">
         <h1 className="text-2xl font-semibold">Admission</h1>
         <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-          Welcome to AWHS Admissions. Below is a quick overview of our process, important dates, and required documents.
+          Welcome to ahps Admissions. Below is a quick overview of our process, important dates, and required documents.
         </p>
 
         <div className="mt-8 grid gap-8 md:grid-cols-3">

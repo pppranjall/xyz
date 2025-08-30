@@ -1,4 +1,4 @@
-export const metadata = { title: "Contact — AWHS" }
+export const metadata = { title: "Contact — ahps" }
 
 export default function ContactPage() {
   return (

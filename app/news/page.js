@@ -1,4 +1,4 @@
-export const metadata = { title: "News — AWHS" }
+export const metadata = { title: "News — ahps" }
 
 export default function NewsPage() {
   return (

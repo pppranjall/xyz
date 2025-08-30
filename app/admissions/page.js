@@ -1,4 +1,4 @@
-export const metadata = { title: "Admissions — AWHS" }
+export const metadata = { title: "Admissions — ahps" }
 
 export default function AdmissionsPage() {
   return (

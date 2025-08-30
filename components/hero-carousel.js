@@ -4,19 +4,19 @@ import { useEffect, useMemo, useRef, useState } from "react"
 
 const slides = [
   {
-    src: "/awhs-campus-aerial.png",
-    alt: "Aerial view of AWHS campus",
-    caption: "Expansive Campus",
+    src: "/img/WhatsApp Image 2025-08-29 at 9.17.59 PM (1).jpeg",
+    alt: "Music & Dance/Arts & Craft at ahps",
+    caption: "Music & Dance/Arts & Craft",
   },
   {
-    src: "/awhs-classrooms-learning.png",
-    alt: "Students learning in bright classrooms at AWHS",
-    caption: "Inspiring Classrooms",
+    src: "/img/WhatsApp Image 2025-08-29 at 9.17.58 PM (1).jpeg",
+    alt: "Infrastructure at ahps",
+    caption: "Infrastructure",
   },
   {
-    src: "/awhs-sports-and-arts.png",
-    alt: "AWHS students in sports and arts activities",
-    caption: "Beyond the Classroom",
+    src: "/img/WhatsApp Image 2025-08-29 at 9.17.59 PM.jpeg",
+    alt: "Sports at ahps",
+    caption: "Sports",
   },
 ]
 
@@ -48,7 +48,7 @@ export default function HeroCarousel() {
     <section
       className="relative w-full"
       aria-roledescription="carousel"
-      aria-label="AWHS hero images"
+              aria-label="ahps hero images"
       onMouseEnter={pause}
       onMouseLeave={resume}
     >
@@ -99,20 +99,22 @@ export default function HeroCarousel() {
       <div className="absolute inset-0 flex items-center">
         <div className="mx-auto max-w-6xl px-4">
           <div className="max-w-xl">
-            <h1 className="text-pretty text-3xl font-semibold leading-tight md:text-5xl">Welcome to AWHS</h1>
-            <p className="mt-3 text-foreground/80 md:text-lg">
+            <h1 className="text-pretty text-4xl font-bold leading-tight md:text-6xl text-orange-600 mb-4 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-lg">
+              Welcome to AHPS
+            </h1>
+            <p className="text-lg md:text-xl font-medium text-gray-800 leading-relaxed bg-white/80 backdrop-blur-sm px-4 py-2 rounded-lg">
               Nurturing minds and character through academic excellence and holistic development.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a
                 href="/admission"
-                className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:opacity-90 transition"
+                className="inline-flex items-center rounded-lg bg-orange-600 px-6 py-3 text-base font-bold text-white hover:bg-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
                 Start Admissions
               </a>
               <a
                 href="/academics"
-                className="inline-flex items-center rounded-md border px-4 py-2 text-sm font-semibold hover:bg-accent transition"
+                className="inline-flex items-center rounded-lg border-2 border-orange-600 px-6 py-3 text-base font-bold text-orange-600 hover:bg-orange-600 hover:text-white transition-all duration-200 shadow-lg hover:shadow-xl"
               >
                 Explore Academics
               </a>

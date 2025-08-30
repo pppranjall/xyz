@@ -4,32 +4,6 @@ import Footer from "@/components/footer"
 import SectionTitle from "@/components/section-title"
 import HeroCarousel from "@/components/hero-carousel"
 
-function QuoteWithImage() {
-  return (
-    <section className="bg-secondary/60 py-10 md:py-12">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 md:grid-cols-2">
-        <div className="rounded-lg bg-white p-6 shadow-sm">
-          <h3 className="text-lg font-semibold">Broaden the Vision and Deepen the Roots</h3>
-          <p className="mt-4 text-sm leading-6 text-muted-foreground">
-            A good system of education must instill self-esteem and creativity. The methodology of education needs to
-            change...
-          </p>
-          <blockquote className="mt-6 border-l-2 pl-4 text-sm italic text-muted-foreground">
-            “Basic human values need to be encouraged in the classroom” — Gurudev Sri Sri Ravi Shankar
-          </blockquote>
-        </div>
-        <div className="flex items-center justify-center">
-          <img
-            src="/gurudev-sri-sri-ravi-shankar.png"
-            alt="Gurudev Sri Sri Ravi Shankar"
-            className="h-auto w-full rounded-lg object-cover"
-          />
-        </div>
-      </div>
-    </section>
-  )
-}
-
 function LifeGrid() {
   const items = [
     {
@@ -83,7 +57,7 @@ function LifeGrid() {
   ]
   return (
     <section className="py-12">
-      <SectionTitle>Life at AWHS</SectionTitle>
+      <SectionTitle>Life at ahps</SectionTitle>
       <div className="mx-auto grid max-w-6xl grid-cols-2 gap-4 px-4 sm:grid-cols-3 md:grid-cols-4">
         {items.map((item, i) => (
           <figure key={item.label} className="overflow-hidden rounded-lg border">
@@ -198,7 +172,6 @@ export default function HomePage() {
       <Topbar />
       <Navbar />
       <HeroCarousel />
-      <QuoteWithImage />
       <LifeGrid />
       <Stats />
       <VisionMission />

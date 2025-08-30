@@ -56,10 +56,10 @@ function LifeGrid() {
       label: "DMT & Career Counseling",
       image: "/img/WhatsApp Image 2025-08-29 at 9.17.56 PM (1).jpeg"
     },
-    {
-      label: "Transpoart",
-      image: "/img/WhatsApp Image 2025-08-29 at 9.17.57 PM.jpeg"
-    },
+          {
+        label: "Transport",
+        image: "/img/WhatsApp Image 2025-08-29 at 9.17.57 PM.jpeg"
+      },
     {
       label: "Safety & Security",
       image: "/img/WhatsApp Image 2025-08-29 at 9.17.56 PM.jpeg"
